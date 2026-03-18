@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #141414;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: black;
+}
+
+.logo {
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.search-box input {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Movie Grid */
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Movie Card */
+.movie {
+  width: 200px;
+  margin: 15px;
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.movie:hover {
+  transform: scale(1.1);
+}
+
+.movie img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.movie-info h3 {
+  font-size: 16px;
+}
+
+.movie-info p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+button {
+  margin-top: 8px;
+  padding: 6px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
