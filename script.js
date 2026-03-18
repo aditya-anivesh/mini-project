@@ -1,5 +1,5 @@
 const TMDB_API_KEY = "c953f14851d0801632d85fa457ed1238";
-const GROQ_API_KEY = "sk_SByedEhSkOuSxhUbfeXqWGdyb3FYsJZMISoRJKAMIOVJ8pa9bDRE";
+const GROQ_API_KEY = "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";
 
 const IMG_URL = "https://image.tmdb.org/t/p/w500";
 
